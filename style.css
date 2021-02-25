@@ -4,15 +4,24 @@ body {
   background-color: rgb(34, 29, 44);
 }
 
-.group {
-  font-size: 16px;
-}
-
-body header {
+header {
   display: flex;
   justify-content: center;
   color: rgb(161, 189, 196);
   background-color: rgb(34, 29, 44);
+  font-size: 22px;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navPoint {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 nav a {
@@ -21,18 +30,18 @@ nav a {
   background-color: rgb(43, 37, 56);
   color: rgb(217, 235, 60);
   text-decoration: none;
-  padding: 5px 0 5px 0;
+  padding: 5px 5px 5px 5px;
+  margin-top: 5px;
 }
 
-main {
-    padding-right: 30px;
-}
 
 
 /* main sections layout */
 
-main section {
+section {
+    margin: 0 auto;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -49,7 +58,7 @@ li {
 
 /* image specs */
 
-main section img {
+section img {
   width: 100%;
   margin: 15px;
 }
@@ -60,13 +69,27 @@ main section img {
     margin: 10 0 0 10px;
   }
 
-  section {
+  /* changing column to spread out header */
+  #column {
+      margin: 0 auto;
     display: flex;
     flex-direction: row-reverse;
     padding: 16px;
     justify-content: space-between;
     padding-right: 30px;
     max-width: 900px;
+  }
+
+  #navPoint {
+    margin: 0 auto;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+  #main {
+    flex-direction: row;
+    justify-content: center;
   }
 
   body nav a:last-child {
@@ -77,12 +100,13 @@ main section img {
     padding: 20px 20px 20px 20px;
   }
 
-  main section {
-    display: flex;
-    flex-direction: row-reverse;
+  img {
+    max-inline-size: 270px;
+    min-inline-size: 270px;
+    padding-left: 30px;
   }
 
-  img {
+  ul {
     max-inline-size: 270px;
     min-inline-size: 270px;
   }
