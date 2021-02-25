@@ -56,11 +56,20 @@ li {
   margin-top: 15px;
 }
 
+/* gif and column break */
+
+h2 {
+  color:rgb(245, 155, 204);
+
+  background-color:rgb(43, 37, 56);
+  font-style: unset;
+}
+
 /* image specs */
 
 section img {
   width: 100%;
-  margin: 15px;
+  margin: 20px 0 30px 0;
 }
 
 @media all and (min-width: 624px) {
@@ -111,4 +120,15 @@ section img {
     max-inline-size: 270px;
     min-inline-size: 270px;
   }
+}
+
+/* reconfiguring layout to allow text to come before image in #end section */
+
+@media all and (max-width: 624px) {
+
+  #end {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
 }
