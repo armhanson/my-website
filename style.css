@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(34, 29, 44);
+}
+
+.group {
+  font-size: 16px;
+}
+
+body header {
+  display: flex;
+  justify-content: center;
+  color: rgb(161, 189, 196);
+  background-color: rgb(34, 29, 44);
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43, 37, 56);
+  color: rgb(217, 235, 60);
+  text-decoration: none;
+  padding: 5px 0 5px 0;
+}
+
+main {
+    padding-right: 30px;
+}
+
+
+/* main sections layout */
+
+main section {
+  display: flex;
+  justify-content: center;
+}
+
+/* ul/li typography */
+
+ul {
+  color: rgb(161, 189, 196);
+  list-style: none;
+}
+
+li {
+  margin-top: 15px;
+}
+
+/* image specs */
+
+main section img {
+  width: 100%;
+  margin: 15px;
+}
+
+@media all and (min-width: 620px) {
+  .group {
+    display: flex;
+    margin: 10 0 0 10px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 16px;
+    justify-content: space-between;
+    padding-right: 30px;
+    max-width: 900px;
+  }
+
+  body nav a:last-child {
+    margin-left: 5px;
+  }
+
+  body nav a {
+    padding: 20px 20px 20px 20px;
+  }
+
+  main section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  img {
+    max-inline-size: 270px;
+    min-inline-size: 270px;
+  }
+}
