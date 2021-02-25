@@ -59,7 +59,7 @@ li {
 /* gif and column break */
 
 h2 {
-  color:rgb(245, 155, 204);
+  color:rgb(247, 139, 198);
   font-style: unset;
 }
 
@@ -111,7 +111,6 @@ section img {
   img {
     max-inline-size: 270px;
     min-inline-size: 270px;
-    padding-left: 30px;
   }
 
   ul {
