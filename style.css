@@ -43,6 +43,10 @@ section {
   justify-content: center;
 }
 
+#hobbies {
+  background-color:rgb(43, 37, 56);
+}
+
 /* ul/li typography */
 
 ul {
@@ -55,11 +59,22 @@ li {
   margin-top: 15px;
 }
 
-/* gif and column break */
+/* projects hr */
 
 h2 {
   color: rgb(247, 139, 198);
   font-style: unset;
+  background-color:rgb(43, 37, 56);
+  padding: 5px;
+}
+
+/* color and padding for project titles */
+
+#coderRing {
+  color: rgb(161, 189, 196);
+  font-size: 22px;
+  padding-left: 30px;
+  background-color:rgb(34, 29, 44);
 }
 
 /* image specs */
@@ -68,6 +83,7 @@ section img {
   width: 100%;
   margin: 20px 0 20px 0;
 }
+
 
 /* contact typography, images and forms */
 
@@ -147,6 +163,7 @@ form p {
   #main {
     flex-direction: row;
     justify-content: center;
+    text-align: right;
   }
 
   body nav a:last-child {
