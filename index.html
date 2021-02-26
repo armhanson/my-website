@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
 
@@ -16,9 +16,11 @@
         <div class="item">
           <nav><a href="#">About Me</a></nav>
         </div>
-          <div class="item">
-            <nav><a href="#">Say Hi</a></nav>
-          </div>
+        <div class="item">
+          <nav><a href="#">Say Hi</a></nav>
+        </div>
+        <div class="item">
+          <nav><a href="#">Projects</a></nav>
         </div>
       </div>
     </section>
@@ -31,10 +33,10 @@
           </div>
           <div class="item">
             <ul>
-              <li>Hello, visitors. Thanks for stopping at this section of the internet today.</li>
+              <li>Hello, visitors. Thanks for stopping by this section of the internet today.</li>
               <li>I live in Chicago where I've worked the coffee industry's backend for ~4 years. I've been in tech my entire life, starting with sewing machine repair at the age of 7.</li>
-              <li>Yep. Child labor.</li>
-              <li>The world of code has always intrigued me, so I'm taking the life-skills I've obtained through critical analysis and problem solving and moving into this digital haven of endless glitch-fixing.</li>
+              <li>Prodigy? Nah... But a good tech? Yeah.</li>
+              <li>The world of code has always intrigued me, so I'm taking the life-skills I've obtained through critical analysis and problem solving and moving into glitch-fixing of the digital kind.</li>
             </ul>
           </div>
         </div>
@@ -49,8 +51,8 @@
         <div class="group">
           <div class="item">
             <ul>
-              <li>I'm learning through Thinkful how to do the codez.</li>
-              <li>Check it out - to your right (or below, for the less dynamic mobile experience), you'll notice an historical image of the great Nicolas Cage in his natural habitat: a photo.</li>
+              <li>My specific skillset lies in retrieving data from obscure and well-known sources and making it clearly approachable for clients.</li>
+              <li>For instance, notice this rare image of the great Nicolas Cage in his natural habitat: a photo.</li>
             </ul>
           </div>
           <div class="item">
@@ -65,16 +67,48 @@
           </div>
           <div class="item">
             <ul>
-              <li>Now, notice to your left (or below again, if you still haven't borrowed that stranger's laptop to check this out): this is an image of a more volatile form in which Nicolas finds himself often contemplating significant issues.</li>
-              <li>Intrigued? If so, send me an email below! Let's find something we have in common.</li>
+              <li>Now, take notice of this image of a more volatile form in which Nicolas often finds himself contemplating significant issues.</li>
+              <li>If you need results that are easily recognizable, just like Nicolas Cage, look no further. Get in contact below and let's make something.</li>
             </ul>
           </div>
         </div>
       </section>
-        <label for="emailSection">Send Me a Letter!</label>
-        <form id="emailSection" class="email" action="" method="POST">
-          <label for="email">Your Email:</label>
-          <input id="email" type="text">
+      <label id="l1" for="contact">Connect with me here:</label>
+      <div id="contact">
+        <a href="mailto: armhanson@gmail.com" id="env">
+          <img src="./pixel-env.png" alt="A Cute, Pixelated Envelope"/>
+        </a>
+        <a href="https://github.com/armhanson">
+          <img src="./pixel-github.png" alt="A Cute, Pixelated Github Logo">
+        </a>
+        <a href="https://www.linkedin.com/in/andrew-hanson-9a408287/">
+          <img src="./pixel-lnkdin.png" alt="A Cute, Pixelated LinkedIn Logo">
+        </a>
+      </div>
+      <div id="emailForm">
+        <label id="l2" for="emailSection">Send Me a Letter!</label>
+        <form id="emailSection" class="email" action="https://formspree.io/f/mwkwdejk" method="POST">
+          <label id="l3" for="name">Your Name:</label>
+            <input id="name" name="name" type="text">
+          <label id="l4" for="email">Your Email:</label>
+            <input id="email" name="email" type="text">
+          <label id="l5" for="message">Share your thoughts:</label>
+            <textarea
+              id="message"
+              name="message"
+              cols="50"
+              rows="10"
+              placeholder="Hit me up!"></textarea>
+          <input
+            id="gravenLog"
+            type="image"
+            src="intrct_menu_talk.png"
+            alt="Submit"
+            width="120"
+            height="120"></input>
+            <p>Touch the Graven Log</p>
+            <p>to send your letter through the Magick Portal!</p>
         </form>
+      </div>
   </body>
 </html>

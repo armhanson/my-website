@@ -48,6 +48,7 @@ section {
 ul {
   color: rgb(161, 189, 196);
   list-style: none;
+  padding: 0 30 0 30;
 }
 
 li {
@@ -65,8 +66,58 @@ h2 {
 
 section img {
   width: 100%;
-  margin: 20px;
+  margin: 20px 0 20px 0;
 }
+
+/* contact typography, images and forms */
+
+label {
+  display: flex;
+  justify-content: center;
+  color: rgb(161, 189, 196);
+  background-color: rgb(43, 37, 56);
+  font-size: 19px;
+  padding: 10 0 10 0;
+}
+
+#l1 {
+  color: rgb(217, 235, 60);
+}
+
+#l2 {
+  color: rgb(247, 139, 198);
+  font-size: 26px;
+}
+
+form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 6px;
+  max-width: 500px;
+}
+
+form p {
+  margin: 0 auto;
+  color: rgb(147, 125, 115);
+  max-width: 450px;
+  font-size: 14px;
+}
+
+#gravenLog {
+  margin: 0 auto;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+#env {
+  max-width: 100px;
+}
+
 
 @media all and (min-width: 624px) {
   .group {
@@ -106,7 +157,7 @@ section img {
     padding: 20px 20px 20px 20px;
   }
 
-  img {
+  section img {
     max-inline-size: 270px;
     min-inline-size: 270px;
   }
@@ -115,12 +166,13 @@ section img {
     max-inline-size: 270px;
     min-inline-size: 270px;
   }
+
 }
 
 /* reconfiguring layout to allow text to come before image in #end section */
 
 @media all and (max-width: 624px) {
-  #end {
+  #end div {
     display: flex;
     flex-direction: column-reverse;
   }
