@@ -68,6 +68,10 @@ h2 {
   padding: 5px;
 }
 
+h3 {
+  color: rgb(161, 189, 196);
+}
+
 h4 {
   color: rgb(161, 189, 196);
   margin-left: 46px;
@@ -83,7 +87,7 @@ h4 {
   margin-top: 20px;
   margin-bottom: 0;
   color: rgb(161, 189, 196);
-  font-size: 22px;
+  font-size: 19px;
   background-color:rgb(34, 29, 44);
 }
 
@@ -233,7 +237,7 @@ form p {
   /* adjusting #projects .group .item */
 
   #decodePurpose {
-    margin-right: 0;  
+    margin-right: 0;
   }
 
   #decodeImg {
@@ -241,7 +245,7 @@ form p {
   }
 
   #decodeSkill {
-    margin-top: 80px;
+    margin-top: 70px;
   }
 
 }
