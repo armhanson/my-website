@@ -56,7 +56,7 @@ ul {
 }
 
 li {
-  margin-top: 15px;
+  margin: 15px 15px 15px 15px ;
 }
 
 /* projects hr */
@@ -68,7 +68,16 @@ h2 {
   padding: 5px;
 }
 
+h4 {
+  color: rgb(161, 189, 196);
+  margin-left: 46px;
+}
+
 /* color and padding for project titles */
+
+#projectHeader {
+  margin-top: 20px;
+}
 
 #decoderRing {
   margin-top: 20px;
@@ -79,7 +88,7 @@ h2 {
 }
 
 #decoderRingLink {
-  margin-bottom: 0;
+  margin: 0 0 0 15px;
   color: rgb(161, 189, 196);
   font-size: 16px;
   padding-left: 30px;
@@ -96,7 +105,6 @@ section img {
   width: 100%;
   margin: 20px 0 20px 0;
 }
-
 
 /* contact typography, images and forms */
 
@@ -159,6 +167,7 @@ form p {
   }
 
   /* changing column to spread out header */
+
   #column {
     margin: 0 auto;
     display: flex;
@@ -205,6 +214,34 @@ form p {
   ul {
     max-inline-size: 270px;
     min-inline-size: 270px;
+  }
+
+  /* adjusting #hobbies, #intro, #passion image to line up with text on desktops */
+
+  #prof {
+    margin-top: 40px;
+  }
+  
+  #curse {
+    margin-top: 34px;
+  }
+
+  #monkeyWrench {
+    margin-top: 118px;
+  }
+
+  /* adjusting #projects .group .item */
+
+  #decodePurpose {
+    margin-right: 0;  
+  }
+
+  #decodeImg {
+    margin-top: 28px;
+  }
+
+  #decodeSkill {
+    margin-top: 80px;
   }
 
 }
