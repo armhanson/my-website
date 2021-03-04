@@ -70,11 +70,24 @@ h2 {
 
 /* color and padding for project titles */
 
-#coderRing {
+#decoderRing {
+  margin-top: 20px;
+  margin-bottom: 0;
   color: rgb(161, 189, 196);
   font-size: 22px;
-  padding-left: 30px;
   background-color:rgb(34, 29, 44);
+}
+
+#decoderRingLink {
+  margin-bottom: 0;
+  color: rgb(161, 189, 196);
+  font-size: 16px;
+  padding-left: 30px;
+  text-decoration: underline;
+}
+
+.group h2 {
+  margin: 0 auto;
 }
 
 /* image specs */
@@ -134,8 +147,12 @@ form p {
   max-width: 100px;
 }
 
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* MEDIA RESPONSIVE CODE */
 
-@media all and (min-width: 624px) {
+@media all and (min-width: 708px) {
   .group {
     display: flex;
     margin: 10 0 0 10px;
@@ -161,6 +178,12 @@ form p {
   }
 
   #main {
+    flex-direction: row;
+    justify-content: center;
+    text-align: right;
+  }
+
+  #passion {
     flex-direction: row;
     justify-content: center;
     text-align: right;
