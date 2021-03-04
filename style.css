@@ -122,10 +122,21 @@ label {
 }
 
 #l1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43, 37, 56);
+  font-size: 19px;
+  padding: 10 0 10 0;
   color: rgb(217, 235, 60);
 }
 
 #l2 {
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43, 37, 56);
+  padding: 0 0 10 0;
   color: rgb(247, 139, 198);
   font-size: 26px;
 }
