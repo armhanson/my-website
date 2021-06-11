@@ -83,13 +83,14 @@ h4 {
   margin-top: 20px;
 }
 
-#colorTune2 {
-  margin-bottom: 20px;
-}
-
 #colorTune1 {
+  margin-top: 20px;
   margin-bottom: 20px;
   background-color: rgb(43, 37, 56);
+}
+
+#colorTune2 {
+  margin-bottom: 20px;
 }
 
 #decoderRing {
