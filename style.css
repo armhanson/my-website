@@ -83,6 +83,11 @@ h4 {
   margin-top: 20px;
 }
 
+#restaurantReservations {
+  margin-bottom: 20px;
+  background-color: rgb(43, 37, 56);
+}
+
 #decoderRing {
   margin-top: 20px;
   margin-bottom: 0;
