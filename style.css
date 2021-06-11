@@ -94,8 +94,7 @@ h4 {
 }
 
 #reservationsImg {
-  height: 150%;
-  width: 150%;
+  margin: 0 auto;
 }
 
 #decoderRing {
